@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smil xmlns="http://www.w3.org/ns/SMIL"
+    xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">
+    <body>
+        <seq id="seq_1" epub:textref="page.xhtml#SCPage">
+            <par id="par_-1">
+                <text src="page.xhtml#SCFirstFakeReadAloud"/>
+                <audio src="audio/spe8.mp3" clipBegin="00:00:00.000" clipEnd="00:00:00.951"/>
+            </par>
+            <par id="par_0">
+                <text src="page.xhtml#obj513"/>
+                <audio src="audio/spe8.mp3" clipBegin="00:00:00.951" clipEnd="00:00:03.305"/>
+            </par>
+            <par id="par_1">
+                <text src="page.xhtml#obj516"/>
+                <audio src="audio/spe8.mp3" clipBegin="00:00:03.305" clipEnd="00:00:07.618"/>
+            </par>
+            <par id="par_2">
+                <text src="page.xhtml#obj517"/>
+                <audio src="audio/spe8.mp3" clipBegin="00:00:07.618" clipEnd="00:00:11.496"/>
+            </par>
+            <par id="par_3">
+                <text src="page.xhtml#obj519"/>
+                <audio src="audio/spe8.mp3" clipBegin="00:00:11.496" clipEnd="00:00:13.562"/>
+            </par>
+            <par id="par_4">
+                <text src="page.xhtml#obj520"/>
+                <audio src="audio/spe8.mp3" clipBegin="00:00:13.562" clipEnd="00:00:17.270"/>
+            </par>
+            <par id="par_5">
+                <text src="page.xhtml#obj521"/>
+                <audio src="audio/spe8.mp3" clipBegin="00:00:17.270" clipEnd="00:00:24.792"/>
+            </par>
+        </seq>
+    </body>
+</smil>

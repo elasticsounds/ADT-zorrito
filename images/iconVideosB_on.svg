@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 841.89 595.28" style="enable-background:new 0 0 841.89 595.28;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#2E61F6;}
+</style>
+<g>
+	<g>
+		<g id="XMLID_00000152983676754344023380000006015275652192802467_">
+			<g id="Shape_1_copy_2_00000170978564248727335700000001380012520261805445_">
+				<g id="XMLID_00000015324765817247471970000009402104577836321412_">
+					<path id="XMLID_00000042008299595735657400000018124732272546088116_" class="st0" d="M357.48,292.85
+						c32.48-30.07,9.62-58.94-15.64-73.38c-26.46-14.43-61.35-16.84-93.83-7.22c-9.62,4.81-19.25,8.42-31.28,13.23
+						c13.23-8.42,22.85-22.85,40.9-28.87c31.28-10.83,87.81-10.83,74.58-57.74c-16.84-58.94-110.67-13.23-152.77,15.64
+						c0,0,0-1.2-1.2-1.2c4.81-6.01,8.42-15.64,16.84-24.06c25.26-26.46,63.76-37.29,21.65-83c-46.92-26.47-99.85,58.94-114.28,87.82
+						c0-9.62,1.2-25.26,6.01-40.9c6.01-24.06,15.64-48.12,2.41-62.55C69.98-16.3,36.3,52.27,31.48,81.14
+						c-6.01,38.49-9.62,80.6-6.01,120.29c4.81,40.9,18.04,49.32,24.06,80.6c1.2,40.9,1.2,80.6,2.41,121.5
+						c-7.22,26.46-45.71,50.52-42.1,78.19c1.2,16.84,49.32,57.74,57.74,63.76c26.46,16.84,89.02,57.74,110.67,24.06
+						c21.65-33.68,24.06-33.68,45.71-64.96c45.71-22.85,110.67-22.85,153.98-58.94c43.3-36.09,43.3-117.89,28.87-139.54
+						C389.96,282.03,375.53,286.84,357.48,292.85z M350.26,337.36c-1.2,15.64-18.04,57.74-55.33,67.36
+						c-42.1,10.83-91.42-54.13-57.74-96.23c21.65-26.46,55.33-37.29,73.38-25.26c19.25,13.23,28.87,15.64,42.1,13.23
+						C341.84,313.3,350.26,321.73,350.26,337.36z M790.54,401.12c1.2-40.9,1.2-80.6,2.41-121.5c7.22-31.28,19.25-39.7,25.26-80.6
+						c4.81-40.9,1.2-81.8-4.81-120.29c-4.81-30.07-39.7-97.44-80.6-50.52c-10.83,14.44-2.41,38.49,2.41,62.55
+						c4.81,15.64,6.01,31.28,6.01,40.9c-15.64-28.87-67.36-115.48-114.28-87.81c-42.1,46.92-4.81,55.34,21.65,83
+						c7.22,8.42,10.83,19.25,16.84,24.06c0,0,0,1.2-1.2,1.2c-42.1-28.87-137.14-74.58-153.98-15.64
+						c-13.23,46.92,43.31,46.92,74.58,57.74c18.04,7.22,30.07,19.25,40.9,28.87c-9.62-4.81-21.65-8.42-31.28-13.23
+						c-32.48-8.42-67.36-7.22-93.83,7.22c-25.26,14.43-49.32,43.31-15.64,73.38c-18.05-6.02-32.48-9.62-48.12,13.23
+						c-15.64,22.86-15.64,103.45,28.87,139.54c43.31,37.29,109.47,37.29,153.98,58.95c21.65,31.28,24.06,31.28,45.71,64.96
+						c21.65,33.68,83-7.22,110.67-24.06c9.62-6.02,56.54-46.92,57.74-63.76C836.25,452.85,798.96,428.79,790.54,401.12z
+						 M547.55,404.73c-37.29-9.62-55.33-52.93-55.33-67.36c0-15.64,7.22-24.06-2.4-42.1c13.23,4.81,22.85,0,42.1-13.23
+						c19.25-13.23,54.13-1.2,73.38,25.26C638.97,349.39,590.85,414.35,547.55,404.73z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<script>//<![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// 
+	]]>
+</script>
+</svg>

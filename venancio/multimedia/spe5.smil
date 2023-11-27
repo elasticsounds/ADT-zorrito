@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smil xmlns="http://www.w3.org/ns/SMIL"
+    xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">
+    <body>
+        <seq id="seq_1" epub:textref="page.xhtml#SCPage">
+            <par id="par_-1">
+                <text src="page.xhtml#SCFirstFakeReadAloud"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:00.000" clipEnd="00:00:00.440"/>
+            </par>
+            <par id="par_0">
+                <text src="page.xhtml#obj312"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:00.440" clipEnd="00:00:04.075"/>
+            </par>
+            <par id="par_1">
+                <text src="page.xhtml#obj313"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:04.075" clipEnd="00:00:10.748"/>
+            </par>
+            <par id="par_2">
+                <text src="page.xhtml#obj314"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:10.748" clipEnd="00:00:13.624"/>
+            </par>
+            <par id="par_3">
+                <text src="page.xhtml#obj315"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:13.624" clipEnd="00:00:18.392"/>
+            </par>
+            <par id="par_4">
+                <text src="page.xhtml#obj316"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:18.392" clipEnd="00:00:20.917"/>
+            </par>
+            <par id="par_5">
+                <text src="page.xhtml#obj317"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:20.917" clipEnd="00:00:24.650"/>
+            </par>
+            <par id="par_6">
+                <text src="page.xhtml#obj322"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:24.650" clipEnd="00:00:26.190"/>
+            </par>
+            <par id="par_7">
+                <text src="page.xhtml#obj323"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:26.190" clipEnd="00:00:27.630"/>
+            </par>
+            <par id="par_8">
+                <text src="page.xhtml#obj325"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:27.630" clipEnd="00:00:28.604"/>
+            </par>
+            <par id="par_9">
+                <text src="page.xhtml#obj326"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:28.604" clipEnd="00:00:30.220"/>
+            </par>
+            <par id="par_10">
+                <text src="page.xhtml#obj328"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:30.220" clipEnd="00:00:31.603"/>
+            </par>
+            <par id="par_11">
+                <text src="page.xhtml#obj329"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:31.603" clipEnd="00:00:33.845"/>
+            </par>
+            <par id="par_12">
+                <text src="page.xhtml#obj331"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:33.845" clipEnd="00:00:37.893"/>
+            </par>
+            <par id="par_13">
+                <text src="page.xhtml#obj332"/>
+                <audio src="audio/spe5.mp3" clipBegin="00:00:37.893" clipEnd="00:00:40.777"/>
+            </par>
+        </seq>
+    </body>
+</smil>

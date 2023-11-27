@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Libro de lectura y actividades de primer año Zorrito Capítulo tres Venancio vuela bajito</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel=" stylesheet" href="../css/layout.css">
+    <script type="text/javascript" src="../js/video.js"></script>
+    <script type="text/javascript" src="../js/util.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/smilFunctions.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy ">You are using an <strong>outdated</strong> browser. Please <a href="# ">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <main>
+        <div class="contenido">
+            <div class="video" id="video" style="display: none;">
+                <video src="multimedia/video/Indicevenancio.mp4" controls="controls"></video>
+            </div>
+            <div class="video" id="audio" style="display: none;">
+                <audio id="audioplayer" src="multimedia/audio/Indicevenancio.mp3" controls="controls" autoplay="autoplay" />
+            </div>
+            <div class="contenedor inicio">
+                <div>
+                    <div class="circle">
+                        <div>
+                            <h1><span id="obj232">VENANCIO
+                                <br aria-hidden="true" /> VUELA BAJITO</span>
+                            </h1>
+                           
+                        </div>
+
+                    </div>
+                </div>
+
+                <nav> 
+                    <h2 class="indice"><span id="obj234">Índice</span></h2>
+                    <ol>
+                        <li>
+                            <a href="presentacion-1.html" aria-label="Capìtulo Venancio vuela bajito"><img src="../images/home/svgIndexVenancio.svg" alt="">
+                                <div>
+                                    <h2><span id="obj236">Venancio vuela bajito</span></h2>
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="actividad_1.html" aria-label="Capìtulo Actividades"><img src="../images/home/svgIndexVenancio.svg" alt="">
+                                <div>
+                                    <h2><span id="obj238">Actividades</span></h2>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="actividad_28.html"><img src="../images/home/svgIndexVenancio.svg" alt="">
+                                <div>
+                                    <h2><span id="obj240">Los perros</span></h2>
+                                </div>
+                            </a>
+                        </li>
+
+
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <footer>
+            <div class="menu-bottom">
+                <div class="ft_izq">
+                    <nav class="dropup" id="nave">
+                        <button class="dropbtn" aria-expanded="false" aria-controls="menu" id="menuButton">Índice</button>
+                        <ul class="dropup-content" id="menu" aria-label="Índice">
+                         
+                            <li>
+                                <a href="../index.html" id="index">
+                                    <p>Inicio</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../zorrito/index.html" id="zorrito" >
+                                    <p>Yo soy Zorrito</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="../sapitogloglo/index.html" id="sapito">
+                                    <p>El sapito Glo Glo Glo</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../violin/index.html" id="violin">
+                                    <p> El violín perdido</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" id="venancio">
+                                    <p>Venancio vuela bajito</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../castillo/index.html" id="castillo">
+                                    <p>El castillo encantado</p>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="ft_der">
+                    <nav class="navder">
+                        <ol>
+                            <li>
+
+                                <a href="../violin/actividad_24.html">
+                                    <button type="button" id="Anterior">  <img src="../images/svgPreviousPageW.svg"
+                                    alt=""></button></a>
+                            </li>
+
+                            <li>
+                                <a href="presentacion-1.html"> <button type="button" id="Siguiente">  <img src="../images/svgNextPageW.svg"
+                                    alt=""></button></a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="ft_der">
+                    <nav class="navder">
+                        <ol>
+
+                            <li>
+                                <button type="button" name="answer" onclick="myFunction()" id="toggleVideoOverHighlightImg">
+                                <img src="../images/iconVideosB.svg" alt="" aria-hidden="true" id="ico_video">
+                                </button>
+                            </li>
+                            <li id="btn_juntos">
+                                <button type="button" name="answer" onclick="audio()">
+                                <img src="../images/voiceOver_off.svg" alt="" aria-hidden="true"  id="toggleVoiceOverHighlightImg">
+                            </button>
+                            
+                                <button type="button" name="toggleVoiceOverHighlight" id="audio_control" onclick="audio_control()"> 
+                                    <img src="../images/iconAudioB.svg" alt="" aria-hidden="true">
+                                </button>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <script async defer>
+        let pageId = 0;
+    </script>
+    <script type="text/javascript"  src="../js/menu_drop.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!<![endif]-->
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Libro de lectura y actividades de primer año Zorrito Capítulo cuatro El castillo encantado</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel=" stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/actividades.css">
+    <script type="text/javascript" src="../js/funciones_castillo.js"></script>
+    <script type="text/javascript" src="../js/util.js"></script>
+    <script type="text/javascript" src="../js/video.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="../js/smilFunctions.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy ">You are using an <strong>outdated</strong> browser. Please <a href="# ">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <main class="mainact">
+        <div class="breadcrumb-line"></div>
+ <!--        
+<div class="video" id="video" style="display: none;">
+    <video src="multimedia/video/Castillo 15.mp4"  controls></video>
+</div>
+<div class="video" id="audio" style="display: none;">
+    <audio id="audioplayer" src="multimedia/audio/castillo15.m4a" controls="controls" />
+</div> -->
+        <div class="breadcrumb">
+            <a class="section" href="index.html">El castillo encantado</a>
+            <span class="divider">></span>
+            <div class="active section">Actividad 22</div>
+        </div>
+        <div class="contenido">
+            <div class="cont_act top-5">
+                <header >
+                    <h1>El castillo encantado</h1>
+                    <p>Elige las expresiones que corresponden para completar los enunciados.</p>
+                </header>
+                <div class="col-2">
+                    <div class="act1">
+                        <img src="images/castillo_pres2c.svg" alt="los tres hermanos se acercan caminando al castillo" class="imagen16">
+                    </div>
+                    <div class="act1 buttons">
+                        <ul>
+                            <li><button type="button" onclick="selectText(this,'opcion')">pasaron</button></li>
+                            <li><button type="button" onclick="selectText(this,'opcion')">perdieron</button></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="poema-respuesta">
+                    <p>Había una vez un rey que tenía <strong>tres</strong> hijos.</p>
+                    <p>Sus hijos salieron a conocer el <strong>mundo.</strong></p>
+                    <p>En el camino se toparon con un <strong>hormiguero.</strong></p>
+                    <p>Después, con un lago donde nadaban muchos <strong>patos.</strong></p>
+                    <p>Finalmente encontraron un panal de <strong>abejas.</strong></p>
+                    <p>Por la noche llegaron a un castillo <strong>encantado.</strong></p>
+                    <p>El hermano menor superó tres pruebas muy <strong>difíciles.</strong></p>
+                </div>
+                <form>
+                    <div class="alineacion">
+                        <div class="pregunta">
+                            <label>Los hermanos mayores
+                            <input type="text" class="opc completar" id="opcion" readonly="true">
+                            la primera prueba</label>
+
+
+                        </div>
+                        <span class="labelResult " id="lblopcion"></span>
+                        <div class="button">
+                            <button type="button" onclick="checked(22)" id="btncheck"> Chequear</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <footer>
+
+            <div class="menu-bottom ">
+                <div class="ft_izq ">
+                    <nav class="dropup" id="nave">
+                        <button class="dropbtn" aria-expanded="false" aria-controls="menu" id="menuButton">Índice</button>
+                        <ul class="dropup-content" id="menu" aria-label="Índice">
+                            <li>
+                                <a href="../index.html" id="index">
+                                    <p>Inicio</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../zorrito/index.html" id="zorrito">
+                                    <p>Yo soy Zorrito</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../sapitogloglo/index.html" id="sapito">
+                                    <p>El sapito Glo Glo Glo</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../violin/index.html" id="violin">
+                                    <p>El violín perdido</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../venancio/index.html" id="venancio">
+                                    <p>Venancio vuela bajito</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" id="castillo">
+                                    <p>El castillo encantado</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="ft_der ">
+                    <nav class="navder ">
+                        <ol>
+                            <li>
+                                <a href="actividad_21.html "> <button type="button " id="Anterior"> <img
+                                            src="../images/svgPreviousPageW.svg" alt=" "
+                                            aria-hidden="true "></button></a>
+                            </li>
+
+                            <li>
+                                <a href="actividad_23.html "> <button type="button " id="Siguiente"> <img
+                                            src="../images/svgNextPageW.svg" alt=" " aria-hidden="true "></button></a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="ft_der ">
+                    <nav class="navder " style="display:none">
+                        <ol>
+                            <li>
+                                <button type="button" name="answer" onclick="myFunction()" id="toggleVideoOverHighlightImg">
+                                <img src="../images/iconVideosB.svg" alt="" aria-hidden="true" id="ico_video">
+                                </button>
+                            </li>
+                            <li id="btn_juntos">
+                                <button type="button" name="answer" onclick="audio()">
+                                <img src="../images/voiceOver_off.svg" alt="" aria-hidden="true"  id="toggleVoiceOverHighlightImg">
+                            </button>
+                            
+                                <button type="button" name="toggleVoiceOverHighlight" id="audio_control" onclick="audio_control()"> 
+                                    <img src="../images/iconAudioB.svg" alt="" aria-hidden="true">
+                                </button>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+   
+<script async defer>
+    let pageId = 1;
+</script>
+<script type="text/javascript"  src="../js/menu_drop.js"></script>
+</body>
+
+</html>

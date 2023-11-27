@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!<![endif]-->
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Libro de lectura y actividades de primer año Zorrito Capítulo tres El violín perdido</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel=" stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/actividades.css">
+    <script type="text/javascript" src="../js/funciones_violin.js"></script>
+    <script type="text/javascript" src="../js/util.js"></script>
+    <script src="../js/video.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/smilFunctions.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy ">You are using an <strong>outdated</strong> browser. Please <a href="# ">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <main class="mainact">
+        <div class="breadcrumb-line"></div>
+        <div class="video" id="video" style="display: none;">
+            <video src="multimedia/video/Violin6_7_8.mp4" controls>
+            </video>
+        </div>
+        <div class="video" id="audio" style="display: none;">
+            <audio id="audioplayer" src="multimedia/audio/Violin8.mp3" controls="controls"></audio>
+        </div>
+        <div class="breadcrumb">
+            <a class="section" href="index.html">El violín perdido</a>
+            <span class="divider">></span>
+            <div class="active section">Actividad 8</div>
+        </div>
+        <div class="contenido">
+            <div class="cont_act top-7">
+                <header>
+                    <h1><span id="obj914">El grillo y sus amigos</span></h1>
+                    <p><span id="obj916">Ordena las sílabas para escribir los nombres.</span> </p>
+
+                </header>
+                <div class="act1">
+                    <img src="images/assets_p8/guitarrero.svg" alt="guitarrero" class="act3img">
+                </div>
+
+                <form>
+                    <div class="alineacion">
+                        <ul class="act2-opc flex">
+                            <li class="lihand" onclick="setValue('nombre1','RO')"><span id="obj926">RO</span></li>
+                            <li class="lihand" onclick="setValue('nombre1','GUI')"><span id="obj928">GUI</span></li>
+                            <li class="lihand" onclick="setValue('nombre1','TA')"><span id="obj930">TA</span></li>
+                            <li class="lihand" onclick="setValue('nombre1','RRE')"><span id="obj932">RRE</span></li>
+                        </ul>
+                        <label for="nombre1"> </label>
+                        <input type="text" class="opc" id="nombre1" readonly>
+                        <span class="labelResult" id="lblopcion"></span>
+                        <div class="button largos">
+                            <!--<button type="button" onclick="limpiarCampos()" class="clear"> Limpiar </button>-->
+                            <button type="button" onclick="checked(8)" id="btncheck"> Chequear </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="menu-bottom">
+                <div class="ft_izq">
+                    <nav class="dropup" id="nave">
+                        <button class="dropbtn" aria-expanded="false" aria-controls="menu" id="menuButton">Índice</button>
+                        <ul class="dropup-content" id="menu" aria-label="Índice">
+                            <li>
+                                <a href="../index.html" id="index">
+                                    <p>Inicio</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../zorrito/index.html" id="zorrito">
+                                    <p>Yo soy Zorrito</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="../sapitogloglo/index.html" id="sapito">
+                                    <p>El sapito Glo Glo Glo</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" id="violin">
+                                    <p> El violín perdido</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../venancio/index.html" id="venancio">
+                                    <p>Venancio vuela bajito</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../castillo/index.html" id="castillo">
+                                    <p>El castillo encantado</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="ft_der">
+                    <nav class="navder">
+                        <ol>
+                            <li>
+                                <a href="actividad_7.html"> <button type="button" id="Anterior"> <img
+                                            src="../images/svgPreviousPageW.svg" alt="" aria-hidden="true"></button></a>
+                            </li>
+
+                            <li>
+                                <a href="actividad_9.html"> <button type="button" id="Siguiente"> <img
+                                            src="../images/svgNextPageW.svg" alt="" aria-hidden="true"></button></a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="ft_der">
+                    <nav class="navder">
+                        <ol>
+                            <li>
+                                <button type="button" name="answer" onclick="myFunction()" id="toggleVideoOverHighlightImg">
+                                <img src="../images/iconVideosB.svg" alt="" aria-hidden="true" id="ico_video">
+                                </button>
+                            </li>
+                            <li id="btn_juntos">
+                                <button type="button" name="answer" onclick="audio()">
+                                <img src="../images/voiceOver_off.svg" alt="" aria-hidden="true"  id="toggleVoiceOverHighlightImg">
+                            </button>
+
+                                <button type="button" name="toggleVoiceOverHighlight" id="audio_control" onclick="audio_control()"> 
+                                    <img src="../images/iconAudioB.svg" alt="" aria-hidden="true">
+                                </button>
+                            </li>
+                        </ol>
+
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script async defer>
+        let pageId = 12;
+    </script>
+    <script type="text/javascript"  src="../js/menu_drop.js"></script>
+</body>
+
+</html>
